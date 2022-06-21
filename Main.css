@@ -1,0 +1,365 @@
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color:#7c32ff white;
+  }
+  body::-webkit-scrollbar-track {
+    background: white;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #c738d8;
+    border-radius: 6px;
+    border: 3px solid white;
+    
+  }
+  
+.home-banner-area {
+    background: url(img/img2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-height: 2200px;
+ }
+
+ .home-banner-right img {
+    max-width: 100%;
+    height: 440px;
+}
+
+/* ---------- */
+.feature-area{
+    margin-left: 50px;
+}
+
+.feature-item {
+    border-right: 1px solid rgba(130,139,178,.2);
+    padding-right: 25px;  
+    position: relative; 
+    top: -55px; 
+    z-index: 5;
+}
+
+
+.feature-item i {
+    font-size: 30px;
+    color: #828bb2;
+    padding-right:10px ;
+}
+
+/*---------------------------------------------------------- Nav Bar --------------------------------------------------------------*/
+
+.navBg {
+    background-color: black;
+}
+nav .collapse a{
+    font-weight: 500;
+    color: white !important;
+}
+
+
+.asec .left p{
+    color: #222;
+}
+
+
+
+/* -------------------------------------------------------------Footer -------------------------------------------------------------*/
+
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+ }
+ .footer-social a{
+    text-decoration: none;  
+ }
+
+
+.footer-area {
+    height: auto;
+    background-color: #222;
+    padding-top: 35.5vmax;
+    background: url(img/xfooter-bg.png.pagespeed.ic.PKJIMGJLHO.png) no-repeat center;
+}
+
+
+.footer-area .single-footer-widget input {
+    max-height: 40px;
+    border: none;
+    width: 70%!important;
+    font-weight: 400;
+    background: #363a4b;
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.form-control {
+    transition: border-color .15s ease-in-out , box-shadow .15s ease-in-out;
+}
+
+.footer-area .single-footer-widget .click-btn {
+    color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 12px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(90deg,#7c32ff 0%,#c738d8 100%);
+    
+}
+.footer-area .container .row{
+    position: relative; top: -6vmax;
+}
+
+.footer-area .footer-bottom .footer-social {
+    text-align: center;
+}
+
+
+.footer-area .footer-bottom .footer-social a {
+    background: #363a4b;
+    margin-left: 5px;
+    width: 40px;
+    color: #fff;
+    display: inline-grid;
+    text-align: center;
+    height: 40px;
+    align-content: center;
+    transition: all .3s ease 0s;
+}
+
+
+.form-inline {
+  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.footer-area .single-footer-widget h4 {
+    color: #fff;
+}
+
+
+.footer-area .single-footer-widget  li a,p{
+    transition: all .3s ease 0s;
+    color: #828bb2;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.footer-area .footer-bottom p {
+    color: #fff;  
+}
+
+
+
+.footer-bottom{
+    position: relative; 
+    top: 9vmax;
+}
+
+li {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em; 
+
+}
+
+
+
+/* --------------------------------------------------Media Quarry -----------------------------------------------------------------*/
+@media (max-width: 991px){
+    
+    nav .collapse ul li a {
+        margin:0;
+    }
+    .footer-area .footer-bottom .footer-social {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .footer-area {
+        background: #222;
+        padding: 60px 0;
+    }
+
+    .footer-area .single-footer-widget {
+        margin-bottom: 30px;
+        
+    }
+
+
+    .home-banner-right img {
+        display: none;
+    }
+    .home-banner-area {
+        text-align: center;
+        padding-bottom: 150px;
+    }
+    .footer-area .single-footer-widget h4 {
+        margin-bottom: 15px;
+    }
+    .footer-area .single-footer-widget h4 {
+        font-size: 18px;
+    }
+    .feature-area{
+        margin-left: 0;
+    }
+    .footer-area .container .row{
+         top: 0;
+    }
+    .navbar-nav{
+        background-color: #222;
+        font-size: large;
+        margin-top: 30px;
+        
+    }
+    .navbar-nav li{
+        font-size: large;
+        padding-left: 25px;
+        margin-left: 0;
+    }
+
+
+    .asec {
+        background-color: #828BB8;
+        flex-wrap: wrap;
+        height: 160vh;
+        padding: 8vh 2vh;
+    }
+
+    .asec .left {
+        width: 100vw !important;
+        padding: 1vh 1vh;
+    }
+
+    .asec .right {
+        width: 100vw !important;
+        margin: 0 0;
+        
+    }
+    .asec .right img{
+        max-width: 100vw !important;
+
+    }
+
+}
+
+
+
+
+
+.asec {
+    background: url(img/middelwave.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    display: flex;
+    margin: 20vh 0px;
+    color: white; 
+
+}
+
+.asec .left {
+    width: 50vw;
+    padding: 30vh 10vw;
+    
+}
+.asec .left h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.asec .right {
+    width: 50vw;
+    margin: 2vh 5vw;
+}
+
+.image{ 
+    background-color:black ;
+}
+.asec .right img {
+    width: 100%;
+    max-height: 100%;
+    margin: 0 0;
+    opacity: 0.6;
+
+}
+.asec .right h4{
+    margin-top: 5vh;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+
+
+/* gooooooo */
+ .btn {
+     
+    background: rgb(194,58,187);
+    background: linear-gradient(16deg, rgba(194,58,187,1) 0%, rgba(136,0,255,1) 100%);  
+    color: white !important;
+    
+}
+
+.card-img{
+    height: 60vh; 
+}
+
+
+
+.sec-course {
+    padding: 50px 0;
+}
+
+.sec-course .card {
+    background-color: #f9f9fb;
+    border: none;
+}
+
+.sec-course .card h6 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+.rounded-circle{
+    height: 150px;
+}
